@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio của Lê Thị Mai Anh</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #ff6347, #ff4500);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #ff4500;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background: #ff6347;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 24px;
+            color: #ff4500;
+        }
+        .skills, .projects, .contact {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .skills div, .projects div, .contact div {
+            margin: 10px;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #ff6347;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio của Lê Thị Mai Anh</h1>
+    </header>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#skills">Kỹ năng</a>
+        <a href="#projects">Sản phẩm/Dự án</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+    <div class="container">
+        <section id="home">
+            <h2 class="section-title">Trang chủ</h2>
+            <p>Chào mừng bạn đến với portfolio của tôi! Tôi là Lê Thị Mai Anh, một 2D designer, illustrator, 3D artist, và graphic designer. Hiện tôi đang là sinh viên năm 3 ngành Công nghệ Đa phương tiện của Đại học Kiến trúc Hà Nội. Tôi có niềm đam mê với vẽ, nghe nhạc, và xem phim.</p>
+        </section>
+        <section id="about">
+            <h2 class="section-title">Giới thiệu</h2>
+            <p>Tôi là Lê Thị Mai Anh, hiện đang theo học ngành Công nghệ Đa phương tiện tại Đại học Kiến trúc Hà Nội. Với niềm đam mê mãnh liệt với nghệ thuật và thiết kế, tôi luôn tìm kiếm cơ hội để thể hiện khả năng sáng tạo của mình qua các dự án 2D, 3D và graphic design.</p>
+        </section>
+        <section id="skills">
+            <h2 class="section-title">Kỹ năng</h2>
+            <div class="skills">
+                <div>
+                    <h3>2D Design</h3>
+                    <p>Kinh nghiệm vẽ và thiết kế đồ họa 2D với các công cụ như Adobe Photoshop, Illustrator.</p>
+                </div>
+                <div>
+                    <h3>Illustration</h3>
+                    <p>Tạo ra các minh họa sáng tạo cho các dự án khác nhau.</p>
+                </div>
+                <div>
+                    <h3>3D Art</h3>
+                    <p>Thiết kế và tạo hình 3D với các phần mềm như Blender, Maya.</p>
+                </div>
+                <div>
+                    <h3>Graphic Design</h3>
+                    <p>Thiết kế đồ họa, bao gồm logo, poster, và các ấn phẩm truyền thông.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2 class="section-title">Sản phẩm/Dự án</h2>
+            <div class="projects">
+                <div>
+                    <h3>Dự án 1</h3>
+                    <p>Mô tả dự án sẽ được cập nhật sau.</p>
+                </div>
+                <div>
+                    <h3>Dự án 2</h3>
+                    <p>Mô tả dự án sẽ được cập nhật sau.</p>
+                </div>
+                <div>
+                    <h3>Dự án 3</h3>
+                    <p>Mô tả dự án sẽ được cập nhật sau.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 class="section-title">Liên hệ</h2>
+            <div class="contact">
+                <div>
+                    <h3>Email</h3>
+                    <p>lethimaianh@example.com</p>
+                </div>
+                <div>
+                    <h3>Điện thoại</h3>
+                    <p>+84 123 456 789</p>
+                </div>
+                <div>
+                    <h3>Địa chỉ</h3>
+                    <p>Hà Nội, Việt Nam</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Lê Thị Mai Anh</p>
+    </footer>
+</body>
+</html>
